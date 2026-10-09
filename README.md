@@ -1,6 +1,6 @@
 # Jumbo Lifting Solutions
 
-Jumbo is a website for a crane rental and lifting solutions business. The current application is a React single-page frontend built with Vite. The `backend/` directory is reserved for future backend work; it currently contains no application code.
+Jumbo is a website for a crane rental and lifting solutions business. The current application is a React single-page frontend built with Vite. No backend application is implemented yet.
 
 ## Prerequisites
 
@@ -35,7 +35,6 @@ The current frontend does not require environment variables. Do not commit crede
 ## Project layout
 
 - `frontend/` — React application, Vite configuration, assets, and pnpm lockfile
-- `backend/` — reserved for future backend code
 - `.github/workflows/` — continuous integration checks
 - `CHANGELOG.md` — significant project milestones
 
@@ -48,4 +47,4 @@ The current frontend does not require environment variables. Do not commit crede
 - Push feature branches and use pull requests for review before merging into `main`.
 - Never force-push, rewrite shared history, or commit secrets.
 
-GitHub connection is configured separately once the intended repository is confirmed.
+The public GitHub repository is [OSh3081/Jumbo](https://github.com/OSh3081/Jumbo), with `origin/main` tracking the local `main` branch.
